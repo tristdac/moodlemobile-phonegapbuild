@@ -8426,21 +8426,21 @@ em {
 
 .bar-content {
   border-color: transparent;
-  background-color: #f70;
+  background-color: #1A2B32;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff; }
   .bar-content .title {
     color: #fff; }
   .bar-content .button {
     border-color: transparent;
-    background-color: #f70;
+    background-color: #1A2B32;
     color: #fff; }
     .bar-content .button:hover {
       color: #fff;
       text-decoration: none; }
     .bar-content .button.active, .bar-content .button.activated {
       border-color: transparent;
-      background-color: #f70; }
+      background-color: #1A2B32; }
     .bar-content .button.button-clear {
       border-color: transparent;
       background: none;
@@ -9641,7 +9641,7 @@ mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grade
 
 .bar-side-menu {
   border-color: transparent;
-  background-color: #f70;
+  background-color: #1A2B32;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff;
   height: 80px !important; }
@@ -10457,3 +10457,104 @@ select.mma-mod_survey-select {
 .mma-qtype-multianswer-container input[type="radio"], .mma-qtype-multianswer-container input[type="checkbox"] {
   margin-top: -4px;
   margin-right: 7px; }
+
+
+
+/** CUSTOM **/
+
+
+[nav-bar-transition="ios"] [nav-bar="active"] .bar, [nav-bar-transition="ios"] [nav-bar="entering"] .bar {
+    background: transparent;
+}
+
+ion-content.scroll-content.ionic-scroll.mm-mm_login_credentials.has-header {
+  background: radial-gradient(circle, rgb(62,86,96), #1A2B32);
+}
+
+.title.title-center.header-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item.item-avatar-center img.avatar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mm-mm_login_credentials button.button.button-block.ng-binding {
+    background: rgb(235, 86,98);
+    color: #fff;
+    border: none;
+}
+
+.mm-mm_login_credentials a.button.button-clear.button-positive.icon.ion-eye-disabled, .mm-mm_login_credentials a.button.button-clear.button-positive.icon.ion-eye {
+    position: absolute;
+    right: 0px;
+    border: none;
+    color: #EE2568;
+	background: transparent;
+}
+
+.mm-mm_login_credentials .pane, .mm-mm_login_credentials .view {
+    background: #222;
+}
+
+.mm-mm_login_credentials .item, .mm-mm_login_credentials .mm-grades-table .itemcenter {
+	border: none;
+    background-color: transparent;
+    border-width: 0;
+    box-shadow: none
+}
+
+.mm-mm_login_credentials p.ng-binding {
+    color: #fff;
+}
+
+.mm-mm_login_credentials p.item-heading.padding.ng-binding {
+    color: #EE2568;
+}
+
+.mm-mm_login_credentials ion-input.item.item-input.item-stacked-label {
+    background: transparent;
+}
+
+.mm-mm_login_credentials ion-label.input-label {
+    display: none !important;
+}
+
+.button.button-positive {
+    border-color: #EE2568 !important;
+    background-color: #EE2568;
+}
+
+.mm-mm_login_credentials .button:hover {
+    color: #fff;
+    border: none;
+}
+
+.mm-mm_login_credentials .popup-body {
+    text-align: center;
+}
+
+.mm-mm_login_credentials input {
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.mm-mm_login_credentials .card, .mm-mm_login_credentials .list {
+    box-shadow: none;
+	background-color: transparent;
+	background: transparent;
+}
+
+.mm-mm_login_credentials button.button.button-block.ng-binding {
+	background: #EE2568;
+	color: #fff;
+}
+
+.mm-mm_login_credentials .forgot {
+	padding-left: 10px;
+	color: #fff;
+}

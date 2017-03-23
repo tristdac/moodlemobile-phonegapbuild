@@ -2,10 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+        id        = "com.moodlemobile.ec"
+        versionCode = "2081"
+        version   = "3.2.2">
+    <name>EC Moodle Mobile</name>
+=======
         id        = "com.moodle.moodlemobile"
         versionCode = "20170"
         version   = "3.2.1">
     <name>Moodle Mobile</name>
+>>>>>>> parent of f9c4b22... Basic configuration & icons
 
     <description>
         Moodle Mobile official app
@@ -16,7 +23,7 @@
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>3.2.1</string>
+        <string>3.2.2</string>
     </gap:config-file>
 
     <gap:platform name="ios" />
@@ -113,7 +120,7 @@
     <gap:plugin name="cordova-plugin-media-capture" source="npm">
         <param name="CAMERA_USAGE_DESCRIPTION" value="We'd like to access your camera to let you take a photo"/>
         <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="We'd like to access your photo library to let you pick a photo"/>
-        <param name="MICROPHONE_USAGE_DESCRIPTION" value="We'd like to access your microphone to let you record an audio"/>
+        <param name="MICROPHONE_USAGE_DESCRIPTION" value="We'd like to access your microphone to let you record audio"/>
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" />
     <gap:plugin name="cordova-plugin-file" source="npm" />
@@ -131,7 +138,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="moodlemobile" />
+        <param name="URL_SCHEME" value="ec" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
