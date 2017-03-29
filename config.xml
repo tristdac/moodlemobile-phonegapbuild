@@ -2,26 +2,20 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
         id        = "com.moodlemobile.ec"
         versionCode = "2081"
         version   = "3.2.2">
     <name>EC Moodle Mobile</name>
-=======
-        id        = "com.moodle.moodlemobile"
-        versionCode = "20170"
-        version   = "3.2.1">
-    <name>Moodle Mobile</name>
->>>>>>> parent of f9c4b22... Basic configuration & icons
+       
 
     <description>
-        Moodle Mobile official app
+        Edinburgh College Moodle Mobile
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Pty Ltd
+    <author href="http://moodle.edinburghcollege.ac.uk" email="moodle@edinburghcollege.ac.uk">
+        Edinburgh College
     </author>
-
+    
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
         <string>3.2.2</string>
     </gap:config-file>
